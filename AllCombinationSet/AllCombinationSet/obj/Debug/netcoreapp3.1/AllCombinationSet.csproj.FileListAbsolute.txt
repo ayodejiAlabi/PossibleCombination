@@ -1,0 +1,11 @@
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\bin\Debug\netcoreapp3.1\AllCombinationSet.exe
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\bin\Debug\netcoreapp3.1\AllCombinationSet.deps.json
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\bin\Debug\netcoreapp3.1\AllCombinationSet.runtimeconfig.json
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\bin\Debug\netcoreapp3.1\AllCombinationSet.runtimeconfig.dev.json
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\bin\Debug\netcoreapp3.1\AllCombinationSet.dll
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\bin\Debug\netcoreapp3.1\AllCombinationSet.pdb
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\obj\Debug\netcoreapp3.1\AllCombinationSet.csprojAssemblyReference.cache
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\obj\Debug\netcoreapp3.1\AllCombinationSet.AssemblyInfoInputs.cache
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\obj\Debug\netcoreapp3.1\AllCombinationSet.AssemblyInfo.cs
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\obj\Debug\netcoreapp3.1\AllCombinationSet.dll
+C:\Users\Ayodeji\source\repos\AllCombinationSet\AllCombinationSet\obj\Debug\netcoreapp3.1\AllCombinationSet.pdb
