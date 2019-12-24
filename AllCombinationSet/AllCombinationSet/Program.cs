@@ -8,6 +8,10 @@ namespace AllCombinationSet
         {
             Console.WriteLine("Hello World!");
             Utility pkl = new Utility();
+            int[] yu = pkl.GetAllOddNumbers(150);
+            pkl.GetCntOfRepeatedItems();           
+            int m = pkl.CombinationSumExt(yu, 150);
+            int l = pkl.CombinationSum(yu, 150);
             int[] a = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
             int hjj = pkl.TestRecurssion(a, a.Length);
             int[][] jaggedArray1 = new int[500][];

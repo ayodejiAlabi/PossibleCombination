@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace AllCombinationSet
 {
@@ -83,5 +85,90 @@ namespace AllCombinationSet
             }
             return jaggedArray1;
         }
+        public int CombinationSum(int[] a, int b)
+        {
+            int c = 0;
+            try
+            {
+                if (b.Equals(0))
+                {
+                    return 1;
+                }
+                for (int i = 0; i < a.Length; i++)
+                {
+                    if (b >= 1)
+                    {
+                        c += CombinationSum(a, b - a[i]);
+                    }
+                }
+            }
+            catch (Exception Ex)
+            {
+
+                throw;
+            }
+            return c;
+        }
+        public int CombinationSumExt(int[] a, int b)
+        {
+            int[] d = new int[b + 1];
+            d[0] = 1;
+            for (int i = 1; i <= b; i++)
+            {
+                for (int j = 0; j < a.Length; j++)
+                {
+                    if (i >= a[j])
+                    {
+                        d[i] += d[i - a[j]];
+                    }
+                }
+            }
+            return d[b];
+        }
+        public int GetCntOfRepeatedItems()
+        {
+            int c = 0;
+            try
+            {
+                // Define a regular expression for repeated words.
+                Regex rx = new Regex(@"\b(?<word>\w+)\s+(\k<word>)\b", RegexOptions.Compiled | RegexOptions.IgnoreCase);
+                // Define a test string.        
+                string text = "The the quick brown fox  fox jumps over the lazy dog dog.";
+                // Find matches.
+                MatchCollection matches = rx.Matches(text);
+                int jjh = matches.Max(z => z.Groups.Count);
+                foreach (Match item in matches)
+                {
+                    GroupCollection groups = item.Groups;
+                }
+            }
+            catch (Exception Ex)
+            {
+
+                throw;
+            }
+            return c;
+        }
+        public int[] GetAllOddNumbers(int a)
+        {
+            IList<int> b = new List<int>();
+            for (int i = 1; i <= a; i++)
+            {
+                if (i == 1)
+                {
+                    b.Add(i);
+                }
+                else
+                {
+                    if (i % 2 != 0)
+                    {
+                        b.Add(i);
+                    }
+                }
+            }
+            return b.ToArray();
+        }
+       
     }
 }
+
